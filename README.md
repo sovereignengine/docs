@@ -1,44 +1,70 @@
-# Mintlify Starter Kit
+<div align="center">
+  <h1>🛡️ S.L.A.V.K.O.™ Sovereign Engine Documentation 🛡️</h1>
+  <h3>The Canonical Library of Deterministic Autonomy & Visual Epistemology</h3>
 
-Use the starter kit to get your docs deployed and ready to customize.
+  <p align="center">
+    <a href="https://formatdisc.hr"><img src="https://img.shields.io/badge/Visual_Engine-SVE_1.0.0-blue?style=for-the-badge" alt="Version"></a>
+    <a href="https://formatdisc.hr"><img src="https://img.shields.io/badge/Status-Enterprise_Audit_Ready-red?style=for-the-badge" alt="Audit Ready"></a>
+    <a href="https://formatdisc.hr"><img src="https://img.shields.io/badge/Documentation-Mintlify_Governed-0F172A?style=for-the-badge&logo=mintlify&logoColor=white" alt="Mintlify"></a>
+    <a href="https://formatdisc.hr"><img src="https://img.shields.io/badge/Validation-JSON_Strict-orange?style=for-the-badge" alt="Compliance"></a>
+  </p>
+  
+  <p>
+    <b>Designed for Enterprise. Built for Absolute Truth. Engineered for Cognitive Symmetry.</b>
+  </p>
+</div>
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+<br/>
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+> **"A system without explicit governance is not autonomous; it is merely unguided. Welcome to the rule of law."**
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+---
 
-## Development
+## 🏛️ Sovereign Knowledge Base
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+This repository contains the definitive technical documentation, API references, and architectural manifestos for the **S.L.A.V.K.O.™ Sovereign Engine Core**. It is automatically compiled, verified, and deployed to our public Mintlify domain.
 
-```
+### Core Documentation Modules
+
+1. **The Sovereign Kernel (C++ & HLSL)**
+   - Hard-coded execution boundaries.
+   - Zero-temperature deterministic logic.
+   - Documentation mapping the `FSlavkoState` reduction logic.
+
+2. **The Sovereign Theatre (UE5.4)**
+   - Holographic interface pipelines.
+   - Intent-Based Command System (IBCS).
+   - `AuditChain` Instance Static Mesh handling.
+
+3. **Backend Orchestration (Node.js & TS)**
+   - API endpoints for LLM hallucination prevention.
+   - Network WAF and JSON Schema Validators.
+
+---
+
+## ⚙️ Build & Preview (Docs Engine)
+
+The Sovereign documentation is powered by the [Mintlify CLI](https://mintlify.com/docs/cli).
+
+```bash
+# 1. Install Mintlify Globally
 npm i -g mint
-```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
+# 2. Spin up the Local Documentation Server
 mint dev
 ```
+*Observe the rendered documentation locally at `http://localhost:3000` with hot-reload enabled.*
 
-View your local preview at `http://localhost:3000`.
+---
 
-## Publishing changes
+## 🛡️ License & Contact
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+This documentation is highly classified and adheres to strict formatting requirements. Any structural or visual entropy (such as generic boilerplate or unvalidated Markdown) is immediately rejected by the formatting agents.
 
-## Need help?
+**Arhitekt:** Mladen Gertner  
+**Verzija:** 9.5 (Kharvath Production Build)  
+**Datum:** Ožujak 2026.  
+**Platforma:** [formatdisc.hr](https://formatdisc.hr)  
 
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-- [Mintlify community](https://mintlify.com/community)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github)](https://github.com/mladengertner)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mladengertner)

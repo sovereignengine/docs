@@ -1,80 +1,81 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "Ignite the S.L.A.V.K.O.™ Sovereign Engine in 3 Steps"
 ---
 
-## Get started in three steps
+Welcome to the **Sovereign Engine** ecosystem. To establish a secure, deterministic link between your infrastructure and the S.L.A.V.K.O.™ Kernel, follow this "Bunker Initialization" protocol.
 
-Get your documentation site running locally and make your first customization.
+## Step 1: Initialize the Bunker
 
-### Step 1: Set up your local environment
+Deploy the core backend services and establish the **Directive Zero** validation layer.
 
 <AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
+  <Accordion icon="clone" title="Clone the Core Repository">
+    ```bash
+    git clone https://github.com/mladengertner/sovereign-engine-core.git
+    cd sovereign-engine-core
+    ```
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
+
+  <Accordion icon="box-open" title="Install Deterministic Dependencies">
+    The Sovereign Engine uses strict, pinned dependencies to ensure 100% architectural fidelity.
+    ```bash
+    npm install
+    ```
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Deploy your changes
+## Step 2: Establish Cryptographic Anchoring
+
+Configure your **AuditChain** and verify the "Zero Temperature" logic environment.
 
 <AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+  <Accordion icon="key" title="Configure Environment">
+    1. Copy the example configuration: `cp .env.example .env`
+    2. Define your `AUDITCHAIN_SECRET` and `SOVEREIGN_NODE_ID`.
+    3. Ensure your local `Ollama` or `NVIDIA NIM` instance is reachable.
+  </Accordion>
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
-
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
+  <Accordion icon="shield-check" title="Perform Deterministic Type Check">
+    Verify that your logic adheres to the absolute syntactical perfection required by the **Sovereign WAF**.
+    ```bash
+    npm run typecheck
+    ```
   </Accordion>
 </AccordionGroup>
 
-### Step 3: Go live
+## Step 3: Ignite the Engine
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
+Activate the backend orchestrator and initialize the Visual Theatre.
+
+<Accordion icon="bolt" title="Launch the Backend">
+  ```bash
+  npm run backend:dev
+  ```
+  *Observe the terminal for the "SOVEREIGN STATUS: YELLOW" signal, indicating the system is healthy and ready for kognitive orchestration.*
 </Accordion>
 
-## Next steps
+## Next Steps
 
-Now that you have your docs running, explore these key features:
+Now that your link is established, explore the architectural depth of the engine:
 
 <CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
-
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
+  <Card title="The C++ Kernel" icon="microchip" href="/essentials/kernel">
+    Explore the low-level legislation of the system.
+  </Card>
+  <Card title="Visual Theatre" icon="desktop" href="/essentials/theatre">
+    Configuring the Unreal Engine 5.4 visualization layer.
+  </Card>
+  <Card title="AuditChain API" icon="link" href="/api-reference/introduction">
+    Accessing the SHA-512 immutable ledger via REST.
+  </Card>
+  <Card title="Sovereign WAF" icon="fire-wall" href="/essentials/security">
+    Designing custom Directive Zero filters.
+  </Card>
 </CardGroup>
 
+<br/>
+
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  **Need Support?** Official architectural audits can be requested via [formatdisc.hr](https://formatdisc.hr).
 </Note>
